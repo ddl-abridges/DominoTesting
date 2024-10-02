@@ -1,4 +1,5 @@
 import os
+import requests
 
 def show_models():
     url = "https://sup5101ab.support-team-sandbox.domino.tech/api/registeredmodels/v1"
