@@ -33,7 +33,7 @@ def show_models():
 
     client = mlflow.MlflowClient()
     data = client.search_registered_models()
-    print(f'MLFLOW_TRACKING_URI: {os.environ['MLFLOW_TRACKING_URI']}')
-    print(f'API_KEY: {os.environ['DOMINO_API_KEY']}')
+    print(f'MLFLOW_TRACKING_URI: {os.environ["MLFLOW_TRACKING_URI"]}')
+    print(f'API_KEY: {os.environ["DOMINO_API_KEY"]}')
     print(f'Response: {data}')
     return data
